@@ -20,3 +20,13 @@ backend/
 ├── manage.py
 └── requirements.txt
 ```
+
+```
+Test Credentials:
+------------------------------
+Admin: admin@uberauth.com / AdminPassword123!
+Rider: alice@example.com / TestPassword123!
+Driver: bob@example.com / TestPassword123!
+Unverified: diana@example.com / TestPassword123!
+------------------------------
+```
