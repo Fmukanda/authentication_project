@@ -1,5 +1,51 @@
 # authentication_project
-
+```
+frontend/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── auth/
+│   │   ├── login/
+│   │   │   └── page.tsx
+│   │   ├── register/
+│   │   │   └── page.tsx
+│   │   └── layout.tsx
+│   ├── dashboard/
+│   │   ├── page.tsx
+│   │   ├── profile/
+│   │   │   └── page.tsx
+│   │   └── layout.tsx
+│   └── api/
+│       └── auth/
+│           └── route.ts
+├── components/
+│   ├── auth/
+│   │   ├── LoginForm.tsx
+│   │   ├── RegisterForm.tsx
+│   │   └── ProtectedRoute.tsx
+│   ├── ui/
+│   │   ├── Button.tsx
+│   │   ├── Input.tsx
+│   │   ├── Card.tsx
+│   │   └── Modal.tsx
+│   └── layout/
+│       ├── Header.tsx
+│       └── Sidebar.tsx
+├── lib/
+│   ├── api.ts
+│   ├── auth.ts
+│   └── utils.ts
+├── store/
+│   ├── authStore.ts
+│   └── userStore.ts
+├── styles/
+│   └── globals.css
+├── public/
+│   └── images/
+├── .env.local
+├── package.json
+└── tailwind.config.ts
+```
 ```
 backend/
 ├── core/
